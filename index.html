@@ -7,9 +7,8 @@
      <title>BJJ Notes | <!-- Do Something Smart Here--></title>
 
      <link rel="stylesheet" href="style.css" type="text/css" />
-    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.css-tricks.com/favicon.ico" />
 
-    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+ 
 </head>
  
 
@@ -58,16 +57,24 @@
     <div id="main_square">
 
         <form action="" id="new_note_form">
+            <!-- Initially this form should send contents of note as email to the email in field-->
             <div>
-                
+                <span>Note Title</span>
                 <input type="text" class="text_field" id="title" name="title" />
+                 <span>Date of Lesson</span>
                 <input type="date" id="date" name="date_field" />
+                 <span>Instructor Name</span>
                 <input type="text" class="text_field" id="instructor" name="instructor" />
+                <span>Note Title</span>
                 <input type="text" class="text_field" id="title" name="title" />
+                <span>Technique Notes</span>
                 <input type="text" class="text_field" id="main_notes" name="main_notes" />
+                <span>Key Details</span>
                 <input type="text" class="text_field" id="key_details" name="key_details" />
+                <span>Common Mistakes</span>
                  <input type="text" class="text_field" id="common_mistakes" name="common_mistakes" />
-                  <input type="text" class="text_field" id="email_field" name="email_field" />
+                 <span>Email Address</span>
+                  <input type="Email" class="text_field" id="email_field" name="email_field" />
                 <input type="submit" id="submit_new_note" value="Submit" class="button" />
             </div>
 
