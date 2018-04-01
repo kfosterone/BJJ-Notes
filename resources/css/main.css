@@ -156,8 +156,10 @@ input[class="large_text_field"] {
     border-color: #73B8BF;
 }
 
-#new_note_form input[type="submit"] {
+#new_note_form input[type="submit"],
+#new_note_form input[type="button"] {
     padding: 10px 12px;
+    width: 100px;
 
 
 }
