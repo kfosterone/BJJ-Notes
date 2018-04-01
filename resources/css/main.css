@@ -106,10 +106,18 @@ p {
 /* MAIN - SQUARE FORMATTING */
 
 #main_square {
-	width: 300px;
+	width: 550px;
+	height: 830px;
 	margin-left:295px;
 	margin-top:60px;
+	background: rgba(0, 0, 0, 0.8);
+	padding: 20px;
 
+}
+
+#main_square span, button{
+	color: white;
+	float: left;
 }
 
 
@@ -159,7 +167,9 @@ input[class="large_text_field"] {
 #new_note_form input[type="submit"],
 #new_note_form input[type="button"] {
     padding: 10px 12px;
+    margin-right: 20px;
     width: 100px;
+    float: left;
 
 
 }
