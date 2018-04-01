@@ -42,12 +42,6 @@ body {
     background: url(images/stripe.png) repeat-x;
 }
 
-#page-wrap {
-    width: 960px;
-    margin: 6px auto 50px;
-    position: relative;
-}
-
 hr {
     height: 1px;
     background: #ccc;
@@ -89,6 +83,7 @@ p {
     padding: 6px 12px;
     border: none;
     color: white;
+    background: black;
     cursor: pointer;
     text-shadow: 0 1px 1px #666;
     -webkit-border-radius: 5px;
@@ -108,6 +103,15 @@ p {
     padding: 3px;
 }
 
+/* MAIN - SQUARE FORMATTING */
+
+#main_square {
+	width: 300px;
+	margin-left:295px;
+	margin-top:60px;
+
+}
+
 
 
 /*
@@ -120,8 +124,9 @@ label {
     padding: 3px;
 }
 
-input[type="text"],
-input[type="password"] {
+
+input[class="wide_text_field"],
+input[class="large_text_field"] {
     width: 224px;
     border: 3px solid #999;
     font-size: 18px;
@@ -129,10 +134,22 @@ input[type="password"] {
     display: block;
 }
 
-#new_note_form input[type="text"] {
+
+
+
+#new_note_form input[class="wide_text_field"] {
     width: 532px;
     float: left;
-    margin: 0 10px 0 69px;
+    margin: 10px 10px 10px 0px;
+
+}
+
+#new_note_form input[class="large_text_field"] {
+    width: 532px;
+    height:200px;
+    float: left;
+    margin: 10px 10px 10px 0px;
+
 }
 
 #new_note_form input[type="text"]:focus {
@@ -141,6 +158,8 @@ input[type="password"] {
 
 #new_note_form input[type="submit"] {
     padding: 10px 12px;
+
+
 }
 
 ul#list li span input[style] {
@@ -156,10 +175,10 @@ ul#list li span input[style] {
     position: absolute;
     left: 0;
     width: 125px;
-    padding: 60px 30px 0 47px;
+    padding: 80px 10px 0 20px;
     height: 756px;
     top: -6px;
-    background: url(/images/ribbon-bg.png) no-repeat;
+    background: none;
 }
 
 #sidebar ul {
