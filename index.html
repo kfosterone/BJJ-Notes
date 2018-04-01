@@ -1,0 +1,95 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <title>BJJ Notes | <!-- Do Something Smart Here--></title>
+
+     <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://cdn.css-tricks.com/favicon.ico" />
+
+    <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
+</head>
+ 
+
+<body>
+
+    <div id="sidebar">
+    <!--This is the left hand column that lists nav items for the app-->
+        <!-- IF LOGGED IN -->
+
+          <!-- Content here -->
+        <ul id="sidebar_logged_in">
+            <li id="new_note">New Note
+            </li>
+            <li id="flow_chart">Flow Chart
+            </li>
+            <li id="settings">Settings
+            </li>
+            <li id="about">About
+            </li>
+            <!--Logged In Emblem or simply 'Logout'-->
+        </ul>
+
+
+
+        <!-- IF LOGGED OUT -->
+
+
+
+          <!-- Alternate content here -->
+
+        <ul id="sidebar_logged_out">
+             <li id="new_note">New Note
+            </li>
+            <li id="flow_chart">Flow Chart
+            </li>
+            <li id="settings">Settings
+            </li>
+            <li id="about">About
+            </li>
+            <li id="login">Login
+            </li>
+        </ul>
+     
+    </div>
+
+    <div id="main_square">
+
+        <form action="" id="new_note_form">
+            <div>
+                
+                <input type="text" class="text_field" id="title" name="title" />
+                <input type="date" id="date" name="date_field" />
+                <input type="text" class="text_field" id="instructor" name="instructor" />
+                <input type="text" class="text_field" id="title" name="title" />
+                <input type="text" class="text_field" id="main_notes" name="main_notes" />
+                <input type="text" class="text_field" id="key_details" name="key_details" />
+                 <input type="text" class="text_field" id="common_mistakes" name="common_mistakes" />
+                  <input type="text" class="text_field" id="email_field" name="email_field" />
+                <input type="submit" id="submit_new_note" value="Submit" class="button" />
+            </div>
+
+        </form>
+
+        <!-- Contains text fields for various nav items. Ex: This is where the New Note form lives, also where the settings items live  -->
+
+
+    </div>
+
+    <div id="background">
+        <!-- Contains background image -->
+
+    </div>
+
+    <div id="main">
+
+    </div>
+    
+  
+  <!-- Analytics here -->
+
+</body>
+
+</html>
