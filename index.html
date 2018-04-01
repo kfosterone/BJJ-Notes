@@ -1,26 +1,19 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-     <title>BJJ Notes | <!-- Do Something Smart Here--></title>
-
-     <link rel="stylesheet" href="resources/css/main.css" type="text/css" />
-
-
-
- 
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>BJJ Notes |
+        <!-- Do Something Smart Here-->
+    </title>
+    <link rel="stylesheet" href="resources/css/main.css" type="text/css" />
 </head>
- 
 
 <body>
-
     <div id="sidebar">
-    <!--This is the left hand column that lists nav items for the app-->
+        <!--This is the left hand column that lists nav items for the app-->
         <!-- IF LOGGED IN -->
-
-          <!-- Content here -->
+        <!-- Content here -->
         <ul id="sidebar_logged_in">
             <li id="new_note">New Note
             </li>
@@ -32,17 +25,10 @@
             </li>
             <!--Logged In Emblem or simply 'Logout'-->
         </ul>
-
-
-
         <!-- IF LOGGED OUT -->
-
-
-
-          <!-- Alternate content here -->
-
+        <!-- Alternate content here -->
         <ul id="sidebar_logged_out">
-             <li id="new_note">New Note
+            <li id="new_note">New Note
             </li>
             <li id="flow_chart">Flow Chart
             </li>
@@ -53,60 +39,46 @@
             <li id="login">Login
             </li>
         </ul>
-     
     </div>
-
     <div id="main_square">
-
         <form action="" id="new_note_form">
             <!-- Initially this form should send contents of note as email to the email in field-->
             <div>
                 <span>Note Title</span>
                 <input type="text" class="text_field" id="title" name="title" />
                 <br>
-                 <span>Date of Lesson</span>
+                <span>Date of Lesson</span>
                 <input type="date" id="date" name="date_field" />
-                 <span>Instructor Name</span>
+                <span>Instructor Name</span>
                 <input type="text" class="text_field" id="instructor" name="instructor" />
                 <br>
                 <span>Note Title</span>
                 <input type="text" class="text_field" id="title" name="title" />
-                  <br>
+                <br>
                 <span>Main Notes</span>
                 <input type="text" class="text_field" id="main_notes" name="main_notes" />
-                  <br>
+                <br>
                 <span>Key Details</span>
                 <input type="text" class="text_field" id="key_details" name="key_details" />
-                  <br>
+                <br>
                 <span>Common Mistakes</span>
-                 <input type="text" class="text_field" id="common_mistakes" name="common_mistakes" />
-                   <br>
-                 <span>Email Address</span>
-                  <input type="Email" class="text_field" id="email_field" name="email_field" />
-                    <br>
+                <input type="text" class="text_field" id="common_mistakes" name="common_mistakes" />
+                <br>
+                <span>Email Address</span>
+                <input type="Email" class="text_field" id="email_field" name="email_field" />
+                <br>
                 <input type="submit" id="submit_new_note" value="Submit" class="button" />
                 <!--note-->
             </div>
-
         </form>
-
         <!-- Contains text fields for various nav items. Ex: This is where the New Note form lives, also where the settings items live  -->
-
-
     </div>
-
     <div id="background">
         <!-- Contains background image -->
-
     </div>
-
     <div id="main">
-
     </div>
-    
-  
-  <!-- Analytics here -->
-
+    <!-- Analytics here -->
 </body>
 
 </html>
